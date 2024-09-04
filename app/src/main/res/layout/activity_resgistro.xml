@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Resgistro">
+
+
+    <EditText
+        android:id="@+id/input_Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:fontFamily="@font/adamina"
+        android:hint="Email"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="136dp"
+        android:layout_height="44dp"
+        android:fontFamily="@font/adamina"
+        android:textColor="#b90000"
+        android:text="Registro"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <EditText
+        android:id="@+id/input_User_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Name"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <EditText
+        android:id="@+id/input_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="User"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <EditText
+        android:id="@+id/input_user_dir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Address"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <EditText
+        android:id="@+id/input_user_last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Last name"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <EditText
+        android:id="@+id/input_user_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="562dp" />
+
+    <EditText
+        android:id="@+id/input_user_phone"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Number phone"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <Button
+        android:id="@+id/btn_Registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:backgroundTint="#b90000"
+        android:textColor="#bea6a0"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="687dp" />
+
+    <Button
+        android:id="@+id/btn_volver"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Volver"
+        android:backgroundTint="#b90000"
+        android:textColor="#bea6a0"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="15dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

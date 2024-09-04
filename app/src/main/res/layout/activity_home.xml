@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/btn_registro"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="51dp"
+        android:backgroundTint="#b90000"
+        android:text="Registro"
+        android:textColor="#bea6a0"
+        app:layout_constraintBottom_toTopOf="@+id/btn_inicioSesion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn_inicioSesion"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="170dp"
+        android:text="Iniciar sesion"
+        android:backgroundTint="#b90000"
+        android:textColor="#bea6a0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_registro" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="230dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginBottom="76dp"
+        android:fontFamily="@font/adamina"
+        android:text="Turmalina APP"
+        android:textColor="#006d00"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="213dp"
+        android:layout_height="179dp"
+        android:layout_marginBottom="162dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_registro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/secundario" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
